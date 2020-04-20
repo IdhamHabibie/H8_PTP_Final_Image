@@ -6,7 +6,7 @@ The project aims to  identify the Cat and Dogs based on a Deep Learning Model. I
 - Import All Libraries
 - Loading the Dataset (Cats and Dogs) 
 - Image Data Generator 
-- Deploy 
+- Define the parameters using Convolutional Neural Network (CNN) Model
 - Compiling CNN to the model 
 - Plotting the Losses and Validation Losses
 - Predicting the Cat and Dog 
