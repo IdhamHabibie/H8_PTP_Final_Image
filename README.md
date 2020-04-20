@@ -14,7 +14,7 @@ The project aims to  identify the Cat and Dogs based on a Deep Learning Model. I
 We will discuss this one by one : 
 
 ### 1. Import all libraries needed 
-Basically, we need a basic deep learning library (TensorFlow) and also the Matlab library (for plotting). We also need Keras Library to identify the value. 
+Basically, we need a basic deep learning library (TensorFlow) and also the Matlab library (for plotting). We also need Keras Library to identify the CNN model. 
 
 ### 2. Loading the Dataset
 I put the library on the **cats_and_dogs_filtered/cats_and_dogs_filtered/**, which consist of two folders : 
@@ -22,7 +22,7 @@ I put the library on the **cats_and_dogs_filtered/cats_and_dogs_filtered/**, whi
 - Validation
 
 ### 3. Image Data Generator 
-In this part, we are using 
+In this part, we are defining the train and test dataset based on the dataset load. We build a Data Generator which aims to reschale the model. 
 
 ### 4. Define the parameters using Convolutional Neural Network (CNN) Model
 We are using the basic convolutional model 2D (CNN), which consist of : 
