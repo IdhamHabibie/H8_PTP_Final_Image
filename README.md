@@ -15,17 +15,8 @@ We will discuss this one by one :
 
 ## 1. Import all libraries needed 
 Basically, we need a basic deep learning library (TensorFlow) and also the Matlab library (for plotting).
----
-# Import all libraries needed
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import tensorflow as tf
-import math
 
-from PIL import Image
-import PIL
-# Import All Images Libraries
-from matplotlib import pyplot
-from matplotlib.image import imread
----
+## 2. Loading the Dataset
+I put the library on the **cats_and_dogs_filtered/cats_and_dogs_filtered/**, which consist of two folders : 
+- train
+- validation
