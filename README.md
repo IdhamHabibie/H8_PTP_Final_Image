@@ -28,10 +28,12 @@ In this part, we are defining the train and test dataset based on the dataset lo
 We are using the basic convolutional model 2D (CNN), which consist of : 
 
 - ##### Convolutional #####
-   
+The layer of the images are convoluted into the next layer, which aims to have a feature extraction. 
 - ##### BatchNormalization #####
 This is mainly used for normalizing the activation function of the previous layer for each batch. Basically, this provides of reparameterizing almost any deep neural network. This technique also called as Whitening
 - ##### Maximum Pooling #####
 What is the Maximum Pooling? Well, it is basically the downsampling strategy in CNN, which also aims to reduct its dimensionality. 
 - ##### Dropout #####
 The dropout means dropping a sample of dataset which aims to reduce the **overfitting** by ignoring some units, during the training phase. 
+- ##### Flatten #####
+The Flatten reshapes the existing dimension into (:,1,:), which aims to be calculated for the Neural Network. 
