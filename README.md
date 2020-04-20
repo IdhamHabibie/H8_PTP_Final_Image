@@ -27,9 +27,11 @@ In this part, we are using
 ### 4. Define the parameters using Convolutional Neural Network (CNN) Model
 We are using the basic convolutional model 2D (CNN), which consist of : 
 
-- *Convolutional*
+- ##### Convolutional #####
    
-- *BatchNormalization*
+- ##### BatchNormalization #####
 This is mainly used for normalizing the activation function of the previous layer for each batch. Basically, this provides of reparameterizing almost any deep neural network. This technique also called as Whitening
-- *Maximum Pooling*
-- *Dropout*
+- ##### Maximum Pooling #####
+What is the Maximum Pooling? Well, it is basically the downsampling strategy in CNN, which also aims to reduct its dimensionality. 
+- ##### Dropout #####
+The dropout means dropping a sample of dataset which aims to reduce the **overfitting** by ignoring some units, during the training phase. 
