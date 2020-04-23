@@ -19,12 +19,15 @@ Basically, we need a basic deep learning library (TensorFlow) and also the Matla
 ### 2. Loading the Dataset
 I put the library on the **cats_and_dogs_filtered/cats_and_dogs_filtered/**, which consist of two folders : 
 - Train
-- Validation
+- Validation (Testing Data) 
+In section 3, the Image Data Generator will classify the classes inside the Train and the Validation. 
 
 ### 3. Image Data Generator 
-In this part, we are defining the train and test dataset based on the dataset load. We build a Data Generator which aims to reschale the model. 
+In this part, we are defining the train and test dataset based on the dataset load. We build a Data Generator which aims to rescaling  the model. 
 
 ### 4. Define the parameters using Convolutional Neural Network (CNN) Model
+CNN is one of the Neural Network method that uses convolution method. But what is the Convolution? In terms of Signal and Processing, the convolution defines a way of combining two signals to create the third signal, by doing convolution. For example if you have **f** and **g** as a function, the **g** function will multiply with **f** by creating windowing method. On the other hand, the convolution formula is the integral of **f** multiplies with the inverse of **g**, which results a third signal.  
+
 We are using the basic convolutional model 2D (CNN), which consist of : 
 
 - ##### Convolutional #####
@@ -36,4 +39,4 @@ What is the Maximum Pooling? Well, it is basically the downsampling strategy in 
 - ##### Dropout #####
 The dropout means dropping a sample of dataset which aims to reduce the **overfitting** by ignoring some units, during the training phase. 
 - ##### Flatten #####
-The Flatten reshapes the existing dimension into (:,1,:), which aims to be calculated for the Neural Network. 
+The Flatten reshapes the existing dimension into (:,1,:), which aims to be calculated for the Neural Network.
