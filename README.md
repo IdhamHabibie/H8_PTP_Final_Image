@@ -35,8 +35,8 @@ The layer of the images are convoluted into the next layer, which aims to have a
 - ##### BatchNormalization #####
 This is mainly used for normalizing the activation function of the previous layer for each batch. Basically, this provides of reparameterizing almost any deep neural network. This technique also called as Whitening
 - ##### Maximum Pooling #####
-What is the Maximum Pooling? Well, it is basically the downsampling strategy in CNN, which also aims to reduct its dimensionality. 
+What is the Maximum Pooling? It is basically the downsampling strategy in CNN, to reduce its dimensionality, we need to find the  
 - ##### Dropout #####
-The dropout means dropping a sample of dataset which aims to reduce the **overfitting** by ignoring some units, during the training phase. 
+The dropout reduces the **overfitting** model by ignoring some units during modelling phase. 
 - ##### Flatten #####
-The Flatten reshapes the existing dimension into (:,1,:), which aims to be calculated for the Neural Network.
+The Flatten reshapes the existing dimension into *(:,1,:)*, which is used for next step of the Neural Network .
